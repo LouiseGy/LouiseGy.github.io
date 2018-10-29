@@ -58,20 +58,5 @@ function init()
 
 
 
-	//Task6
-
-	var changeSrc = function(event) {
-
-  	if (event.target.src) {
-
-    event.target.src = "flower2.png";
-
-  	}
-
-	};
-
-
-
-	document.getElementById("event").addEventListener("mouseover", changeSrc);
 
 }
