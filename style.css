@@ -1,0 +1,56 @@
+body {
+  margin-left: 250px;
+    background-color: red;
+}
+
+ol.navbar {
+
+  position: absolute;
+  top: 30px;
+  left: 15px;
+    width: 150px;}
+
+ol.navbar li {
+  margin: 5px 0;
+  padding: 5px;
+  border-right: 1px solid #17252a;
+  border-top: 1px solid #17252a;
+  border-left: 10px solid #17252a;
+  border-bottom: 1px solid #17252a;
+}
+
+ol.navbar a {
+    text-decoration: none;}
+  
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.citation{
+    font-size : 20px;
+    color:white;
+    font-style:italic;
+}
+
+.intro{
+    font-size : 20px;
+    color:darkblue;
+}
+
+.painting{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
